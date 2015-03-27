@@ -13,8 +13,8 @@ composer require rodrigore/siichile
 ```php
 require 'vendor/autoload.php';
 
-$consulta = (new Rodrigore\SIIChile\Consulta('76.170.582-2')).sii();
-var_dump($consulta);
+$consulta = new Rodrigore\SIIChile\Consulta('76.170.582-2');
+var_dump($consulta->sii());
 ```
 
 ## Formatos del RUT
