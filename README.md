@@ -19,7 +19,7 @@ var_dump($consulta->sii());
 
 ## Salida
 
-![Output](/scheenshots/output.png?raw=true "Sii respuesta")
+![Output](/screenshots/output.png?raw=true "Sii respuesta")
 
 ## Formatos del RUT
 
