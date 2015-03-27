@@ -17,6 +17,10 @@ $consulta = new Rodrigore\SIIChile\Consulta('76.170.582-2');
 var_dump($consulta->sii());
 ```
 
+## Salida
+
+![Output](/scheenshots/output.png?raw=true "Sii respuesta")
+
 ## Formatos del RUT
 
 Los formatos validos para el rut pueden venir con puntos o sin estos, aunque es **necesario que venga el guion que separa el digito verificador**.
