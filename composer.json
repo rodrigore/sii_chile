@@ -1,0 +1,21 @@
+{
+    "name": "rodrigore/siichile",
+    "description": "Port of sii_chile gem",
+    "keywords": ["sii", "chile"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rodrigore",
+            "email": "rodrigopcg@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~5.0",
+        "symfony/dom-crawler": "~2.5|~2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rodrigore\\SIIChile\\": "src/"
+        }
+    }
+}
