@@ -19,6 +19,11 @@ var_dump($consulta->sii());
 
 ## Salida
 
+Una vez exitosa la petición, se retorna un arreglo asociativo con 2 propiedades:
+
+*razonSocial: Es un string que contiene la razon social.
+*actividades: Es un arreglo que contiene todas las actividades asociadas al rut, las cuales a su vez contienen las claves *giro*, *codigo*, *categoria*, *afecta*.
+
 ![Output](/screenshots/output.png?raw=true "Sii respuesta")
 
 ## Formatos del RUT
