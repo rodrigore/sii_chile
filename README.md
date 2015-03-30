@@ -40,3 +40,11 @@ Ejemplo de rut valido:
 
 * [Guzzle](https://github.com/guzzle/guzzle)
 * [DomCrawler](https://github.com/symfony/DomCrawler)
+
+## Tests
+
+``` php
+composer install --dev
+./vendor/bin/phpunit
+```
+
