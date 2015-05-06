@@ -46,7 +46,7 @@ class Consulta
     private function parse($html)
     {
         $crawler = new Crawler($html);
-        $razonSocial = trim($crawler->filterXPath(self::XPATH_RAZON_SOCIAL)->text());
+        $razonSocial = ucwords(strtolower(trim($crawler->filterXPath(self::XPATH_RAZON_SOCIAL)->text())));
 
         $actividades = [];
         $crawler->filterXPath(self::XPATH_ACTIVITIES)->each(function (Crawler $node, $i) use (&$actividades) {
