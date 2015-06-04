@@ -11,7 +11,7 @@ class Consulta
 
     public function __construct($rut)
     {
-        $this->rut = new RUT($rut);
+        $this->rut = new Rut($rut);
         $this->client = new Client;
     }
 
